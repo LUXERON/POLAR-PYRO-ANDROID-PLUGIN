@@ -1,6 +1,6 @@
 {
   "schema_version": "polar.plugin/v1",
-  "id": "dev.luxeron.target.android",
+  "id": "dev.luxeron.engine.android",
   "version": "0.1.0",
   "name": "Polar Pyro Android Target",
   "kind": "engine",

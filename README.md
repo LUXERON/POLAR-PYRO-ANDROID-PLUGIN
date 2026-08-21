@@ -69,7 +69,7 @@ Release promotion requires independent evidence for every gate named in the outp
 
 ## Plugin capability
 
-`dev.luxeron.target.android@0.1.0` contributes `android.compile_build_plan` to the Polar Pyro `target.compiler` slot. The native JSON transport reads one request from standard input and writes one canonical receipt.
+`dev.luxeron.engine.android@0.1.0` contributes `android.compile_build_plan` to the Polar Pyro `target.compiler` slot. The native JSON transport reads one request from standard input and writes one canonical receipt.
 
 ```powershell
 python -m pip install -e .
