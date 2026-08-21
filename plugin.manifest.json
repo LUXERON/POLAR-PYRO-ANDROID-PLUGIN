@@ -28,7 +28,10 @@
     "evidence_classes": ["android.closed_build_plan", "android.authority_partition"],
     "timeout_ms": 30000
   }],
-  "contributions": [{"slot": "target.compiler", "label": "Android", "entry": "android.compile_build_plan"}],
+  "contributions": [
+    {"slot": "target.compiler", "label": "Android", "entry": "android.compile_build_plan"},
+    {"slot": "inspector.overlay", "label": "Android build plan", "entry": "ui/index.html"}
+  ],
   "compatibility": {
     "host_api": ">=1.0 <2.0",
     "web_parent": "dev.luxeron.engine.web-experience",
